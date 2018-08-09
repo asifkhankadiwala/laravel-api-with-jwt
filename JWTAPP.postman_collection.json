@@ -1,0 +1,117 @@
+{
+	"id": "ff3e930b-bbdd-4760-aaab-e2f95225ec6c",
+	"name": "JWTAPP",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"3e159360-cb2c-4e54-ae8d-da5883530a10",
+		"2f2e65a4-d258-4098-a1a1-5b93c6370bea",
+		"7693a4aa-ad08-44f4-930a-3b50ec39158d"
+	],
+	"folders_order": [],
+	"folders": [],
+	"requests": [
+		{
+			"id": "2f2e65a4-d258-4098-a1a1-5b93c6370bea",
+			"name": "Login",
+			"url": "http://localhost:8000/api/login",
+			"description": "",
+			"data": [
+				{
+					"key": "email",
+					"value": "asifkhan.dds@gmail.com1",
+					"sessionValue": "asifkhan.dds@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"sessionValue": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "3e159360-cb2c-4e54-ae8d-da5883530a10",
+			"name": "register",
+			"url": "http://localhost:8000/api/register",
+			"description": "",
+			"data": [
+				{
+					"key": "username",
+					"value": "asifkhan123",
+					"sessionValue": "asifkhan",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "asifkhan.dds@gmail.com1",
+					"sessionValue": "asifkhan.dds@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"sessionValue": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "7693a4aa-ad08-44f4-930a-3b50ec39158d",
+			"name": "logout",
+			"url": "http://localhost:8000/api/logout",
+			"description": "",
+			"data": [],
+			"dataMode": "params",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": " Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNTMzNzg3OTU4LCJleHAiOjE1MzM3OTE1NTgsIm5iZiI6MTUzMzc4Nzk1OCwianRpIjoiWThmZTRSZExKSm9PV3NyYyIsInN1YiI6NiwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.lcpN_DvGE1kQCngMj2x5GX-yIwiBj1masYO3uqltoyI",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"headers": "Authorization:  Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNTMzNzg3OTU4LCJleHAiOjE1MzM3OTE1NTgsIm5iZiI6MTUzMzc4Nzk1OCwianRpIjoiWThmZTRSZExKSm9PV3NyYyIsInN1YiI6NiwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.lcpN_DvGE1kQCngMj2x5GX-yIwiBj1masYO3uqltoyI\n",
+			"pathVariables": {}
+		}
+	]
+}
